@@ -14,7 +14,7 @@
 }
 
 .parallax-container {
-    height: 400px;
+    height: 60%;
 }
 
 .parallax img {
@@ -30,23 +30,30 @@
 section, footer {
     padding: 20px 0;
 }
-.brand-logo, .end {
+.brand-logo {
     font-family: "La Distorsionada";
+    font-weight: bold;
 }
+.brand-logo img {
+    max-width: 50%;
+}
+
 .about {
     font-size: 15px;
 }
 .button {
-    margin-left: 80px;
+    margin-left: 10%;
+    margin-top:10%;
+    margin-bottom: 5%;
+    
 }
 
-.end h1 {
-    font-size: 100px;
-}
+
 .end p {
     text-align: center;
     font-size: 65px;
-    font-family: fantasy;
+    font-family:"La Distorsionada";
+    font-weight: bold;
 }
 .contact {
     display: flex;
@@ -54,4 +61,9 @@ section, footer {
 
 .contact a {
     margin: 0px 15px 0px 15px;
+}
+@media (max-width:670px) {
+    .brand-logo img {
+        margin-left: 75px;
+    }
 }

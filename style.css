@@ -71,4 +71,7 @@ section, footer {
     .brand-logo img {
         margin-left: 75px;
     }
+    .end h1 img {
+        max-width: 90%;
+    }
 }

@@ -48,6 +48,11 @@ section, footer {
     
 }
 
+.end h1 img{
+    max-width: 90%;
+}
+
+
 
 .end p {
     text-align: center;
